@@ -1,0 +1,116 @@
+.Find {
+  font-size: 1rem;
+}
+
+.Find-Results { 
+  list-style: none;
+  padding-left: 0.0em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Find-Results li {
+  margin: 0.1em;
+  line-height: 1em;
+  width: 40em;
+  border: 1px solid black;
+  text-align: left;
+  display: inline-block;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+.Find-ReadButton {
+  text-align: left;
+  padding: 0.1em;
+  float: left;
+  margin-right: 0.5em;
+  padding: 0.1em;
+}
+
+.Find-ReadButton img {
+  float: left;
+  margin-right: 0.2em;
+  width: 8em;
+  height: 8em;
+  display: block;
+  object-fit: contain;
+}
+
+.Find-Results h1 {
+  margin: 0 0 0.25em 0.25em;
+  height: 2.2em;
+  line-height: 1.1em;
+  overflow: hidden;
+}
+
+.Find-Author {
+  font-size: 0.8em;
+  overflow: hidden;
+  margin: 0;
+  width: 20em;
+  height: 1em;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.Find-Icon {
+  height: 1em;
+  margin-right: 0.2em;
+  vertical-align: middle;
+}
+
+.Find-Favorite input {
+  opacity: 0;
+  width: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.Find-Favorite img {
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+}
+
+.Find-Favorite input:focus + label {
+  outline: 1px solid blue;
+}
+
+.Find-Pages {
+  font-size: 0.7em;
+  margin: 0;
+}
+
+.Find-Form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Find-Form input, .Find-Form select {
+  margin: 0.15em 0.25em;
+  font-size: inherit;
+}
+
+.Find-Form label {
+  clip-path: inset(100%);
+  clip: rect(1px 1px 1px 1px); /* IE 6/7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; /* added line */
+  width: 1px;
+}
+
+.Find-Form input[type='search'] {
+  border: 0.1em solid #B2B2B2;
+  border-radius: 0.5em;
+  display: inline-block;
+  color: #333;
+  padding: 0.15em 0.3em;
+  height: 1.5em;
+  width: 16em;
+  transition: all 0.25s ease-in;
+  font-size: inherit;
+}

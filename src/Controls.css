@@ -1,0 +1,63 @@
+.Controls {
+  font-size: 1rem;
+  min-width: 20em;
+  min-height: 16em;
+}
+
+.Controls h1 {
+  font-size: 1em;
+  margin-top: 2px;
+  background-color: #ddd;
+  position: relative;
+  padding: 3px;
+}
+
+.Controls label {
+  display: block;
+  padding: 0.5em;
+  vertical-align: middle;
+}
+
+.Controls input, .Controls select, .Controls button {
+  vertical-align: middle;
+}
+
+.Controls-Close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px;
+  border: none;
+  background-color: #ddd;
+}
+
+[role="tablist"] {
+  list-style-type: none;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+}
+[role="tablist"] li {
+  display: inline;
+}
+[role="tab"] {
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  margin: 0 0.25em -1px 0.25em;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 3px 3px 0 0;
+  color: #000;
+  background-color: #ddd;
+}
+[role="tab"][aria-selected="true"] {
+  border-bottom-color: #fff;
+  box-shadow: 3px 0px lightgray;
+  background-color: #fff;
+}
+[role="tabpanel"] {
+  padding: 0 0.5em;
+}
+[role="tabpanel"][aria-hidden="true"] {
+  display: none;
+}
+
