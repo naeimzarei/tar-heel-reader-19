@@ -73,8 +73,7 @@ class Choose extends React.Component<{store: Store}, {}> {
           <button
             key={book.ID}
             className="Choose_Cover"
-            onClick={() => store.setCurrentView(view)
-            }
+            onClick={() => store.setCurrentView(view)}
             style={{
               width: em(width / maxCols - coverMargin * fs * (maxCols + 1)),
               height: em(height / maxRows - coverMargin * fs * (maxRows + 1)),

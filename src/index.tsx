@@ -11,8 +11,10 @@ import './index.css';
 import createHistory from 'history/createBrowserHistory';
 
 import { autorun } from 'mobx';
-// import useStrict from 'mobx-react-devtools';
-// useStrict(true);
+// import { configure } from 'mobx';
+// configure({
+//   enforceActions: 'always'
+// });
 
 // create the store
 const store = new Store();
